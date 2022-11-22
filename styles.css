@@ -21,7 +21,7 @@ body {
 	*/
 	padding: 10em;
 	min-width: 1500px;
-	min-height: 1800px;
+	min-height: 1600px;
 }
 
 .sidebar {
@@ -55,6 +55,19 @@ body {
   align-items: center;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.links{
+  color: white;
+}
+
+.links:hover {
+  color: #05747b;
+}
+
 .icon{
   margin: 0.5em;
 }
@@ -75,7 +88,7 @@ body {
   padding-top: 5.15em;
 	padding-left: 2em;
   padding-right: 2em;
-  padding-bottom: 5.15em;
+  padding-bottom: 4.9em;
 }
 
 .first-name {
