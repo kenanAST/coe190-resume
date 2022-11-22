@@ -21,7 +21,7 @@ body {
 	*/
 	padding: 10em;
 	min-width: 1500px;
-	min-height: 1300px;
+	min-height: 1800px;
 }
 
 .sidebar {
@@ -53,7 +53,11 @@ body {
 	padding-top: 15px;
   display: flex;
   align-items: center;
-} 
+}
+
+.icon{
+  margin: 0.5em;
+}
 
 .mainbar {
 	color: #292829;
@@ -67,14 +71,17 @@ body {
 
 .name {
 	background-color: #05747b;
-	max-height: 25%;
 	margin: 0%;
-	padding: 5%;
+  padding-top: 5.15em;
+	padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 5.15em;
 }
 
 .first-name {
 	color: #292829;
 	font-size: 78px;
+  margin: 0;
 }
 
 .last-name {
@@ -83,12 +90,17 @@ body {
 }
 
 .work {
-	margin-bottom: 2em;
+	margin-bottom: 2px;
 }
 
 .mainbar-title {
 	margin-top: 25px;
 	margin-bottom: 5px;
+}
+
+.introduction-title {
+	margin-top: 25px;
+	margin-bottom: 0;
 }
 
 .mainbar-company {
